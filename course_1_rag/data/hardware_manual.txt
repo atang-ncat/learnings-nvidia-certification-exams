@@ -1,0 +1,1 @@
+The module operates between 15W and 60W. Overheating triggers the thermal throttle. Ensure heatsink is attached. The recommended operating temperature range is 0°C to 85°C. Power consumption varies with workload, peaking at 60W under heavy load. Proper ventilation is essential to maintain performance and prevent thermal throttling.
