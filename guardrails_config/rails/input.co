@@ -1,0 +1,15 @@
+define subflow politics check
+  if "latest election" in $user_message
+    bot refuse politics
+    stop
+
+define subflow sensitive info check
+  if "my SSN" in $user_message
+    bot refuse sensitive info
+    stop
+
+define bot refuse politics
+  "I am a hardware diagnostic assistant. I cannot discuss politics or elections."
+
+define bot refuse sensitive info
+  "I am a hardware diagnostic assistant. I cannot process sensitive personal data."

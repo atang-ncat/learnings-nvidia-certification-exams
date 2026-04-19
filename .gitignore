@@ -1,0 +1,10 @@
+# Virtual environment
+nvidia_env/
+__pycache__/
+*.pyc
+.env
+# IDE
+.vscode/
+.idea/
+# OS
+.DS_Store
